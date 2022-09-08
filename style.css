@@ -16,3 +16,19 @@ ul {
 * {
     background-color: lavender;
 }
+
+.linkbar {
+    display: inline;
+    position:relative;
+    bottom:10px;
+}
+
+.projectsbar {
+    display: inline;
+}
+
+.main {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+}
