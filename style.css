@@ -1,6 +1,7 @@
 .linkpic {
     height: 30px;
     width: 30px;
+    text-decoration: none;
 }
 
 h1 {
@@ -18,20 +19,25 @@ ul {
 }
 
 .linkbar {
+    text-align: center;
+}
+.linkitem {
     display: inline;
-    position:relative;
-    bottom:10px;
+    padding: 10px;
 }
 
 .projectsbar {
-    display: inline;
-}
-
-.main {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
+}
+
+.main {
+    /* position: relative;
+    margin-left: auto;
+    margin-right: auto; */
+    /* display: flex;
+    justify-content: center; */
     text-align: center;
 }
