@@ -28,8 +28,10 @@ ul {
 }
 
 .main {
-    position: absolute;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
