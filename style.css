@@ -57,6 +57,12 @@ p {
     text-align: center;
 }
 
+.resume {
+    text-align: center;
+        margin-left: auto;
+    margin-right: auto;
+}
+
 .projectbox {
     width:fit-content;
     margin-left: auto;
