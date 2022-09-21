@@ -11339,8 +11339,13 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: black;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+span img {
+  object-fit:fill;
+  border-radius:100%;
 }
 
 .sidebar-nav {
@@ -11517,13 +11522,16 @@ footer.footer .social-link:hover {
   margin: auto 2rem 2rem;
 }
 .portfolio-item .caption .caption-content h2, .portfolio-item .caption .caption-content .h2 {
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
-.portfolio-item .caption .caption-content p {
+.portfolio-item .caption .caption-content a {
   font-weight: 300;
   font-size: 1.2rem;
+  padding-right: 10px;
+  color: white
 }
+
 @media (min-width: 992px) {
   .portfolio-item {
     max-width: none;
@@ -11541,6 +11549,15 @@ footer.footer .social-link:hover {
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 5rem;
+  }
+  strong a {
+    color: black
+  }
+  .portfolio-item .caption .caption-content div {
+    display: inline-flex;
+  }
+  .portfolio-item .caption .caption-content div p{
+    padding-right: 10px;
   }
   .portfolio-item img {
     transition: -webkit-clip-path 0.25s ease-out;
